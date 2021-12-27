@@ -4,7 +4,7 @@
 // return 10 because 1 + 2 + 3 + 4 = 10.
 
 function addUp(num) {
-
+return num + num ;
 
 }
 
