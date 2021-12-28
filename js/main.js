@@ -3,9 +3,15 @@
 // For example, if the input is 4 then your function should
 // return 10 because 1 + 2 + 3 + 4 = 10.
 
-function addUp(num) {
-return num + num ;
 
+  function addUp(num) {
+    let sum = 0;
+    for(let i = 1; i <= num; i++){
+      console.log(i)
+      sum += i
+    }
+    return sum
 }
 
-console.log(addUp(10))
+console.log(addUp(4))
+
