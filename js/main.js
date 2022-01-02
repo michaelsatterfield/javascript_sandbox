@@ -4,14 +4,21 @@
 // return 10 because 1 + 2 + 3 + 4 = 10.
 
 
-  function addUp(num) {
-    let sum = 0;
-    for(let i = 1; i <= num; i++){
-      console.log(i)
-      sum += i
-    }
-    return sum
+//   function addUp(num) {
+//     let sum = 0;
+//     for(let i = 1; i <= num; i++){
+//       console.log(i)
+//       sum += i
+//     }
+//     return sum
+// }
+//
+// console.log(addUp(4))
+//
+
+//convert age to days
+function calcAge(age) {
+  return age * 365 + " days old";
 }
 
-console.log(addUp(4))
-
+console.log(calcAge(4));
