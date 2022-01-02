@@ -17,8 +17,15 @@
 //
 
 //convert age to days
-function calcAge(age) {
-  return age * 365 + " days old";
-}
+// function calcAge(age) {
+//   return age * 365 + " days old";
+// }
+//
+// console.log(calcAge(4));
 
-console.log(calcAge(4));
+
+
+
+// function howManySeconds(hours) {
+//   return hours * 60 * 60;
+// }
